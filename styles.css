@@ -126,7 +126,21 @@ a i:hover{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
 
-  
+  .modal_links{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    width: 290px;
+    max-width: 60vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    color:black;
+  }
   /* Modal Content */
   .modal-content {
     position: relative;
