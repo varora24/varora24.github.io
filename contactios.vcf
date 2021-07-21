@@ -1,24 +1,21 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//iPhone OS 14.4.2//EN
+PRODID:-//Apple Inc.//iPhone OS 14.6//EN
 N:Arora;Vaibhav;;;
 FN:Vaibhav Arora
 ORG:University Of Notre Dame;
-TITLE:Student 
+TITLE:Student
 item1.EMAIL;type=INTERNET;type=pref:vaibhavarora2411@gmail.com
 item1.X-ABLabel:Personal
 item2.EMAIL;type=INTERNET:varora@nd.edu
 item2.X-ABLabel:_$!<School>!$_
-TEL;type=HOME;type=VOICE;type=pref:(989) 276-5563
+TEL;type=HOME;type=VOICE;type=pref:+91 98927 65563
 TEL;type=IPHONE;type=CELL;type=VOICE:+1 (574) 485-7028
-item3.ADR;type=HOME;type=pref:;;B-2003 Runwal Elegante\nNr Lokhandwala Circle \, Andheri West;Mumbai;MAHARASHTRA;400053;India
-item3.X-ABADR:in
-item4.ADR:;;208 Carroll Hall 5606\nUniversity Of Notre Dame;Notre Dame;INDIANA;46556;United States
-item4.X-ABLabel:_$!<School>!$_
-item4.X-ABADR:us
 X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/www.linkedin.com/in/varora24/
 X-SOCIALPROFILE;type=facebook:http://www.facebook.com/www.facebook.com/webhavarora/
-X-SOCIALPROFILE;type=Instagram;x-user=www.instagram.com/vaibhav_arora24/:x-apple:vaibhav_arora24
+X-SOCIALPROFILE;type=Instagram;x-user=www.instagram.com/vaibhav_arora24/:x-apple:www.instagram.com/vaibhav_arora24/
+item3.URL;type=pref:https://varora24.github.io/
+item3.X-ABLabel:_$!<HomePage>!$_
 BDAY:2001-11-24
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAASABIAAD/4QBARXhpZgAATU0AKgAA
  AAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAABQKADAAQAAAABAAABQAAAAAD/4huQSU
