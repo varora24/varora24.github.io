@@ -12,17 +12,20 @@
     </head>
     <body>
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div1 id="myModal" class="modal">
+
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <a href="contactinfo.vcf" class="modal_links"> Android </a>
-                <a href="contactios.vcf" class="modal_links"> iPhone </a>
+                <a href="contactinfo.vcf" class="links"> Android </a>
+                <a href="contactios.vcf" class="links"> iPhone </a>
             </div>
-        </div>
+        </div1>
+
         <center>
         <div style="background-color: white ;width: fit-content;height: fit-content;border-radius: 20px;margin-left: 5%;margin-top: 5%;">
         <!-- Profile picture-->
+            <br>
             <img src="https://i.ibb.co/BqJHXGj/1581700797234-e-1631750400-v-beta-t-gsm-HMfntbxejk-Q6n2p-L9tb-Ay7-OWUun-i-Sh-SXAKd-Bxs.jpg" alt="profile picture" class="profile-picture">
             <!-- Profile name-->
         <h1 class="profile name"><a target="_blank" class="profile name">Vaibhav Arora</a></h1>
@@ -38,6 +41,8 @@
             <a href="mailto:vaibhavarora2411@gmail.com" target="_blank" class="links">Gmail</a>
             <a href="https://www.facebook.com/webhavarora/" target="_blank" class="links">Facebook</a>
             <a class="links" id="myBtn" onclick="myFunction()"> Save Contact </a>
+            <!--
+            -->
             <br>
         </div>
         </center>
@@ -46,29 +51,29 @@
 </html>
 
 <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
-    
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-    // When the user clicks on the button, open the modal
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-    
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 </script>
