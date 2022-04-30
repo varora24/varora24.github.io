@@ -4,47 +4,89 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <title>Vaibhav Arora</title>
-        <link rel="icon" type="image/png" href="assets/favicon.ico"/>
+        <link type="text/vcard" href="contactinfo.vcf">
+        <link type="text/x-vcard" href="contactios.vcf">
+        <link rel="icon" type="image/png" href="https://vaibhavarora.net/img/favicon.ico"/>
         <link rel="manifest" href="assets/site.webmanifest" crossorigin="use-credentials">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     </head>
     <body>
+        <!-- The Modal -->
+        <div1 id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+                <span class="close">&times;</span>
+                <a href="contactinfo.vcf" class="links"> Android </a>
+                <a href="contactios.vcf" class="links"> iPhone </a>
+            </div>
+        </div1>
+
         <center>
-        <div style="background-color: white ;width: fit-content;height: fit-content;border-radius: 20px;margin-left: 5%;">
+        <div style="background-color: white ;width: fit-content;height: fit-content;border-radius: 20px;margin-left: 5%;margin-top: 5%;">
         <!-- Profile picture-->
-            <img src="https://media-exp1.licdn.com/dms/image/C5103AQGQ5nmcktDifg/profile-displayphoto-shrink_400_400/0/1581700797234?e=1625097600&v=beta&t=QbApDJP3NvjkfLUL3AebzrqUQT5uA3L29S2vmyA3Erk" alt="profile picture" class="profile-picture">
+            <br>
+            <img src="https://i.ibb.co/BqJHXGj/1581700797234-e-1631750400-v-beta-t-gsm-HMfntbxejk-Q6n2p-L9tb-Ay7-OWUun-i-Sh-SXAKd-Bxs.jpg" alt="profile picture" class="profile-picture">
             <!-- Profile name-->
         <h1 class="profile name"><a target="_blank" class="profile name">Vaibhav Arora</a></h1>
         <!-- Profile motto-->
-        <h2 class="profile motto">Computer Engineering Student</h2>
+        <h2 class="profile motto">
+            Computer Engineering Student at<br>
+            University of Notre Dame, 23'
+        </h2>
+        <!-- Social Media Icons-->
+		<p style="margin: 0.75pt; font-size: 20px; font-family: Arial, sans-serif;">
+			<a href="https://www.linkedin.com/in/varora24/" target="_blank">
+                <img width="40" height="40" src="linkedinlogo.png" alt="" style="border: 0 ;  border-radius: 0px;">                      
+            </a> 
+            <a href="https://github.com/varora24/" target="_blank">
+                <img width="40" height="40" src="githublogo.png" alt=" " style="border: 0 ; border-radius: 0px ; ">
+            </a>
+            <a href="https://vaibhavarora.net/" target="_blank">
+                <img width="40" height="40" src="https://th.bing.com/th/id/OIP.vRE0tGGZdKN4XXpyxL159QHaHa?pid=ImgDet&rs=1" alt=" " style="border: 0 ; border-radius: 0px ; ">
+            </a>
+            <a href="https://www.facebook.com/webhavarora/" target="_blank">
+                <img width="40" height="40" src="https://th.bing.com/th/id/OIP.b_IiMhsmqpW9x2aEeMKztwHaHa?pid=ImgDet&rs=1" alt=" " style="border: 0 ; border-radius: 0px ; ">
+            </a>
+		</p>
         <!-- Links and Headers-->
-            <a href="https://www.linkedin.com/in/varora24/" target="_blank" class="links">LinkedIn</a>
-            <a href="https://github.com/varora24" target="_blank" class="links">GitHub</a>
-            <a href="https://drive.google.com/file/d/1cJxpACkZvwWGL5TYtvp9cJRv6_ruCGcW/view?usp=sharing" target="_blank" class="links">Resume</a>
-            <a href="mailto:vaibhavarora2411@gmail.com" target="_blank" class="links">Gmail</a>
-            <a href="https://www.facebook.com/webhavarora/" target="_blank" class="links">Facebook</a>
+        <a class="links" id="myBtn" onclick="myFunction()"> Save Contact </a>
+        <a href="https://vaibhavarora.net/" target="_blank" class="links">Personal Website</a>
+        <a href="varora_resumepdf.pdf" target="_blank" class="links">Resume</a>
+        <a href="mailto:vaibhavarora2411@gmail.com" target="_blank" class="links">Gmail</a>
+            <!--
+            -->
             <br>
-       
-        <script>
-            console.clear()
-            const styles = [
-                'color: black', 
-                'background: #fbdd3b', 
-                'font-size: 30px',
-                'padding: 10px',
-                'margin: 10px 0 10px 0'
-            ].join(';')
-            console.log('%cHello friend!', styles);
-            console.log("I'm very flattered that you're checking out my work.")
-            console.log("Let's be friends:")
-            const sparkles = 'font-size: 16px; background: rgb(98, 36, 241); background: linear-gradient(310deg, #6224f1 19%, #67e1d6 100%)'
-            console.log("%c✨", sparkles, "LinkedIn: https://www.linkedin.com/in/sylwia-vargas/")
-            console.log("%c✨", sparkles, "Twitter: https://twitter.com/SylwiaVargas")
-            console.log("%c✨", sparkles, "Github: https://github.com/sylwiavargas")
-            console.log("Have a wonderful day!")
-        </script>
         </div>
         </center>
     </body>
 
 </html>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
