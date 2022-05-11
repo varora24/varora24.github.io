@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 15.4.1//EN
+N:Canahui;Juan;;;
+FN:Juan Canahui
+ORG:Starship Technologies;
+EMAIL;type=INTERNET;type=HOME;type=pref:juan.canahui@starship.co
+TEL;type=CELL;type=VOICE;type=pref:(703) 853-8922
+X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/juan-canahui
+item1.URL;type=pref:https://varora24.github.io/juancanahui.html
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
